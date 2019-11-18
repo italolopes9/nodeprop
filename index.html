@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> NodeProp - Especializada em Soluções Digitais</title>
+        <meta name="description" content="Agência especializada em Marketing Digital,
+            Criação de site e Aplicativos Mobile.">
+        <meta name="keywords" content="Agência digital, Marketing, Sites">
+        <meta name="robots" content="index follow">
+        <meta name="author" content="Antonio Italo">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/icon.png">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+           <a href="index.html"><h1 class="logo">NodeProp - Especializada em Soluções Digitais</h1></a>
+           <button class="btn-menu"> <i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close">x</a>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Clientes</a></li>
+                   <li><a href="#">Serviços</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Quem somos</a></li>
+                   <li><a href="#">Contatos</a></li>
+               </ul>
+           </nav>
+        </header>
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+            $(".btn-menu").click(function(){
+            $(".menu").show();
+            });
+            $(".btn-close").click(function(){
+            $(".menu").hide();
+            });
+        </script> 
+    </body>
+
+</html>
